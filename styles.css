@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.control-bar {
+    position:absolute;
+    top:0;
+    width: 250px;
+    min-height:50px;
+    transform: translateX(40vw);
+    opacity: 0;
+    transition: 0.3s;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 1px 1px 19px rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+    align-items: center;
+
+}
+
+.control-bar:hover{
+    opacity: 100;
+}
+
+.btn-save{
+    margin: 0 10px ;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.28);
+    border: 0;
+    padding: 10px 15px;
+    background: lightskyblue;
+    font-weight:600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-clear{
+    cursor: pointer;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.28);
+    border: 0;
+    padding: 10px 15px;
+    background: lightsalmon;
+    font-weight:600;
+    color: white;
+    font-family: Arial,
+    Helvetica,
+    sans-serif;
+    border-radius: 20px;
+}
+
+
+
+/* #myCanvas{
+    width: 80%;
+    border: 2px solid black;
+} */
+
